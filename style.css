@@ -1,0 +1,37 @@
+#mealList{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 20px;
+}
+
+.meal{
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.meal-name{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+
+#mealList img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.food{
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.food img{
+  width: 25%;
+  border-radius: 10px;
+}
+
